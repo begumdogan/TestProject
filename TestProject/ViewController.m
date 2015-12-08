@@ -14,9 +14,25 @@
 
 @implementation ViewController
 
+-(IBAction)showButton:(id)sender
+{
+    helloWorldLabel.hidden = NO;
+    hideButton.hidden = NO;
+    showButton.hidden = YES;
+}
+-(IBAction)hideButton:(id)sender
+{
+    helloWorldLabel.hidden = YES;
+    hideButton.hidden = YES;
+    showButton.hidden = NO;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    helloWorldLabel.hidden = YES;
+    showButton.hidden = NO;
+    hideButton.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -58,13 +58,10 @@
 		5531C5861C16DD7000CDBCFA /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				5531C58A1C16DD7000CDBCFA /* AppDelegate.h */,
-				5531C58B1C16DD7000CDBCFA /* AppDelegate.m */,
 				5531C58D1C16DD7000CDBCFA /* ViewController.h */,
 				5531C58E1C16DD7000CDBCFA /* ViewController.m */,
 				5531C5901C16DD7000CDBCFA /* Main.storyboard */,
 				5531C5931C16DD7000CDBCFA /* Assets.xcassets */,
-				5531C5951C16DD7000CDBCFA /* LaunchScreen.storyboard */,
 				5531C5981C16DD7000CDBCFA /* Info.plist */,
 				5531C5871C16DD7000CDBCFA /* Supporting Files */,
 			);
@@ -74,6 +71,9 @@
 		5531C5871C16DD7000CDBCFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5531C58B1C16DD7000CDBCFA /* AppDelegate.m */,
+				5531C58A1C16DD7000CDBCFA /* AppDelegate.h */,
+				5531C5951C16DD7000CDBCFA /* LaunchScreen.storyboard */,
 				5531C5881C16DD7000CDBCFA /* main.m */,
 			);
 			name = "Supporting Files";
